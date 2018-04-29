@@ -4,7 +4,8 @@
   "description": "",
   "main": "./client/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --content-base ./client"
+    "start": "webpack-dev-server --mode development --content-base ./client",
+    "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",
